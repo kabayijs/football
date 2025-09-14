@@ -1,0 +1,29 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #003366, #006699);
+      color: white;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      border-bottom: 4px solid #ffcc00;
+    }
+    .sec1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 2rem;
+      gap: 1.5rem;
+    }
+    .card {
+      background:url(ball.webp);
+      background-size: cover;
+      background-position: center;
+      background-position: no-repeat;
+      padding: 7.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      border: 2px solid #ffcc00;
+      color: rgb(82, 76, 76);
+    }
+    
